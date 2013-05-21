@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		923B50CD174BE1E500EDE29E /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 923B50CC174BE1E500EDE29E /* CalculatorViewController.m */; };
+		923B50CE174BE1E500EDE29E /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 923B50CC174BE1E500EDE29E /* CalculatorViewController.m */; };
+		923B50D1174BE20500EDE29E /* CalculatorViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 923B50D0174BE20500EDE29E /* CalculatorViewControllerTests.m */; };
+		923B50D4174BE36800EDE29E /* CalculatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 923B50D3174BE36800EDE29E /* CalculatorView.m */; };
+		923B50D5174BE36800EDE29E /* CalculatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 923B50D3174BE36800EDE29E /* CalculatorView.m */; };
 		928F578E174BB2EF0019382B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928F578D174BB2EF0019382B /* UIKit.framework */; };
 		928F5790174BB2EF0019382B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928F578F174BB2EF0019382B /* Foundation.framework */; };
 		928F5792174BB2EF0019382B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928F5791174BB2EF0019382B /* CoreGraphics.framework */; };
@@ -27,9 +32,17 @@
 		928F57C8174BB3910019382B /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928F57C7174BB3910019382B /* GHUnitIOS.framework */; };
 		928F57C9174BB3EE0019382B /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928F57C7174BB3910019382B /* GHUnitIOS.framework */; };
 		928F57CB174BB46A0019382B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928F57CA174BB46A0019382B /* QuartzCore.framework */; };
+		928F57CE174BB5890019382B /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 928F57CD174BB5890019382B /* Calculator.m */; };
+		928F57CF174BB5890019382B /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 928F57CD174BB5890019382B /* Calculator.m */; };
+		928F57D2174BB5AF0019382B /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 928F57D1174BB5AF0019382B /* CalculatorTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		923B50CB174BE1E500EDE29E /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		923B50CC174BE1E500EDE29E /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		923B50D0174BE20500EDE29E /* CalculatorViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewControllerTests.m; sourceTree = "<group>"; };
+		923B50D2174BE36800EDE29E /* CalculatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorView.h; sourceTree = "<group>"; };
+		923B50D3174BE36800EDE29E /* CalculatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorView.m; sourceTree = "<group>"; };
 		928F578A174BB2EF0019382B /* ReversePolishNotationCalculation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReversePolishNotationCalculation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		928F578D174BB2EF0019382B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		928F578F174BB2EF0019382B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +66,9 @@
 		928F57C2174BB3130019382B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		928F57C7174BB3910019382B /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
 		928F57CA174BB46A0019382B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		928F57CC174BB5890019382B /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		928F57CD174BB5890019382B /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		928F57D1174BB5AF0019382B /* CalculatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +135,12 @@
 				928F579C174BB2EF0019382B /* AppDelegate.h */,
 				928F579D174BB2EF0019382B /* AppDelegate.m */,
 				928F5794174BB2EF0019382B /* Supporting Files */,
+				928F57CC174BB5890019382B /* Calculator.h */,
+				928F57CD174BB5890019382B /* Calculator.m */,
+				923B50CB174BE1E500EDE29E /* CalculatorViewController.h */,
+				923B50CC174BE1E500EDE29E /* CalculatorViewController.m */,
+				923B50D2174BE36800EDE29E /* CalculatorView.h */,
+				923B50D3174BE36800EDE29E /* CalculatorView.m */,
 			);
 			path = ReversePolishNotationCalculation;
 			sourceTree = "<group>";
@@ -141,6 +163,8 @@
 			isa = PBXGroup;
 			children = (
 				928F57B3174BB3130019382B /* Supporting Files */,
+				928F57D1174BB5AF0019382B /* CalculatorTests.m */,
+				923B50D0174BE20500EDE29E /* CalculatorViewControllerTests.m */,
 			);
 			path = ReversePolishNotationCalculatorTests;
 			sourceTree = "<group>";
@@ -255,6 +279,9 @@
 			files = (
 				928F579A174BB2EF0019382B /* main.m in Sources */,
 				928F579E174BB2EF0019382B /* AppDelegate.m in Sources */,
+				928F57CE174BB5890019382B /* Calculator.m in Sources */,
+				923B50CD174BE1E500EDE29E /* CalculatorViewController.m in Sources */,
+				923B50D4174BE36800EDE29E /* CalculatorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +290,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				928F57B9174BB3130019382B /* main.m in Sources */,
+				928F57CF174BB5890019382B /* Calculator.m in Sources */,
+				928F57D2174BB5AF0019382B /* CalculatorTests.m in Sources */,
+				923B50CE174BE1E500EDE29E /* CalculatorViewController.m in Sources */,
+				923B50D1174BE20500EDE29E /* CalculatorViewControllerTests.m in Sources */,
+				923B50D5174BE36800EDE29E /* CalculatorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +467,7 @@
 				928F57A9174BB2EF0019382B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		928F57C4174BB3130019382B /* Build configuration list for PBXNativeTarget "ReversePolishNotationCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +476,7 @@
 				928F57C6174BB3130019382B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

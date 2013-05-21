@@ -16,6 +16,17 @@
 		928F57A0174BB2EF0019382B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 928F579F174BB2EF0019382B /* Default.png */; };
 		928F57A2174BB2EF0019382B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 928F57A1174BB2EF0019382B /* Default@2x.png */; };
 		928F57A4174BB2EF0019382B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 928F57A3174BB2EF0019382B /* Default-568h@2x.png */; };
+		928F57AF174BB3130019382B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928F578D174BB2EF0019382B /* UIKit.framework */; };
+		928F57B0174BB3130019382B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928F578F174BB2EF0019382B /* Foundation.framework */; };
+		928F57B1174BB3130019382B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928F5791174BB2EF0019382B /* CoreGraphics.framework */; };
+		928F57B7174BB3130019382B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 928F57B5174BB3130019382B /* InfoPlist.strings */; };
+		928F57B9174BB3130019382B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 928F57B8174BB3130019382B /* main.m */; };
+		928F57BF174BB3130019382B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 928F57BE174BB3130019382B /* Default.png */; };
+		928F57C1174BB3130019382B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 928F57C0174BB3130019382B /* Default@2x.png */; };
+		928F57C3174BB3130019382B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 928F57C2174BB3130019382B /* Default-568h@2x.png */; };
+		928F57C8174BB3910019382B /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928F57C7174BB3910019382B /* GHUnitIOS.framework */; };
+		928F57C9174BB3EE0019382B /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928F57C7174BB3910019382B /* GHUnitIOS.framework */; };
+		928F57CB174BB46A0019382B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928F57CA174BB46A0019382B /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +43,16 @@
 		928F579F174BB2EF0019382B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		928F57A1174BB2EF0019382B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		928F57A3174BB2EF0019382B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		928F57AE174BB3130019382B /* ReversePolishNotationCalculatorTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReversePolishNotationCalculatorTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		928F57B4174BB3130019382B /* ReversePolishNotationCalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReversePolishNotationCalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		928F57B6174BB3130019382B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		928F57B8174BB3130019382B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		928F57BA174BB3130019382B /* ReversePolishNotationCalculatorTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReversePolishNotationCalculatorTests-Prefix.pch"; sourceTree = "<group>"; };
+		928F57BE174BB3130019382B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		928F57C0174BB3130019382B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		928F57C2174BB3130019382B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		928F57C7174BB3910019382B /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
+		928F57CA174BB46A0019382B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +63,19 @@
 				928F578E174BB2EF0019382B /* UIKit.framework in Frameworks */,
 				928F5790174BB2EF0019382B /* Foundation.framework in Frameworks */,
 				928F5792174BB2EF0019382B /* CoreGraphics.framework in Frameworks */,
+				928F57C8174BB3910019382B /* GHUnitIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928F57AB174BB3130019382B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928F57CB174BB46A0019382B /* QuartzCore.framework in Frameworks */,
+				928F57C9174BB3EE0019382B /* GHUnitIOS.framework in Frameworks */,
+				928F57AF174BB3130019382B /* UIKit.framework in Frameworks */,
+				928F57B0174BB3130019382B /* Foundation.framework in Frameworks */,
+				928F57B1174BB3130019382B /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				928F5793174BB2EF0019382B /* ReversePolishNotationCalculation */,
+				928F57B2174BB3130019382B /* ReversePolishNotationCalculatorTests */,
 				928F578C174BB2EF0019382B /* Frameworks */,
 				928F578B174BB2EF0019382B /* Products */,
 			);
@@ -61,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				928F578A174BB2EF0019382B /* ReversePolishNotationCalculation.app */,
+				928F57AE174BB3130019382B /* ReversePolishNotationCalculatorTests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,6 +104,8 @@
 		928F578C174BB2EF0019382B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				928F57CA174BB46A0019382B /* QuartzCore.framework */,
+				928F57C7174BB3910019382B /* GHUnitIOS.framework */,
 				928F578D174BB2EF0019382B /* UIKit.framework */,
 				928F578F174BB2EF0019382B /* Foundation.framework */,
 				928F5791174BB2EF0019382B /* CoreGraphics.framework */,
@@ -99,6 +137,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		928F57B2174BB3130019382B /* ReversePolishNotationCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				928F57B3174BB3130019382B /* Supporting Files */,
+			);
+			path = ReversePolishNotationCalculatorTests;
+			sourceTree = "<group>";
+		};
+		928F57B3174BB3130019382B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				928F57B4174BB3130019382B /* ReversePolishNotationCalculatorTests-Info.plist */,
+				928F57B5174BB3130019382B /* InfoPlist.strings */,
+				928F57B8174BB3130019382B /* main.m */,
+				928F57BA174BB3130019382B /* ReversePolishNotationCalculatorTests-Prefix.pch */,
+				928F57BE174BB3130019382B /* Default.png */,
+				928F57C0174BB3130019382B /* Default@2x.png */,
+				928F57C2174BB3130019382B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,6 +177,23 @@
 			name = ReversePolishNotationCalculation;
 			productName = ReversePolishNotationCalculation;
 			productReference = 928F578A174BB2EF0019382B /* ReversePolishNotationCalculation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		928F57AD174BB3130019382B /* ReversePolishNotationCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 928F57C4174BB3130019382B /* Build configuration list for PBXNativeTarget "ReversePolishNotationCalculatorTests" */;
+			buildPhases = (
+				928F57AA174BB3130019382B /* Sources */,
+				928F57AB174BB3130019382B /* Frameworks */,
+				928F57AC174BB3130019382B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReversePolishNotationCalculatorTests;
+			productName = ReversePolishNotationCalculatorTests;
+			productReference = 928F57AE174BB3130019382B /* ReversePolishNotationCalculatorTests.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,6 +218,7 @@
 			projectRoot = "";
 			targets = (
 				928F5789174BB2EF0019382B /* ReversePolishNotationCalculation */,
+				928F57AD174BB3130019382B /* ReversePolishNotationCalculatorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -157,6 +235,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		928F57AC174BB3130019382B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928F57B7174BB3130019382B /* InfoPlist.strings in Resources */,
+				928F57BF174BB3130019382B /* Default.png in Resources */,
+				928F57C1174BB3130019382B /* Default@2x.png in Resources */,
+				928F57C3174BB3130019382B /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -169,6 +258,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		928F57AA174BB3130019382B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928F57B9174BB3130019382B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -176,6 +273,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				928F5797174BB2EF0019382B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		928F57B5174BB3130019382B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				928F57B6174BB3130019382B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -244,6 +349,10 @@
 		928F57A8174BB2EF0019382B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReversePolishNotationCalculation/ReversePolishNotationCalculation-Prefix.pch";
 				INFOPLIST_FILE = "ReversePolishNotationCalculation/ReversePolishNotationCalculation-Info.plist";
@@ -255,9 +364,53 @@
 		928F57A9174BB2EF0019382B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReversePolishNotationCalculation/ReversePolishNotationCalculation-Prefix.pch";
 				INFOPLIST_FILE = "ReversePolishNotationCalculation/ReversePolishNotationCalculation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		928F57C5174BB3130019382B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReversePolishNotationCalculatorTests/ReversePolishNotationCalculatorTests-Prefix.pch";
+				INFOPLIST_FILE = "ReversePolishNotationCalculatorTests/ReversePolishNotationCalculatorTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		928F57C6174BB3130019382B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReversePolishNotationCalculatorTests/ReversePolishNotationCalculatorTests-Prefix.pch";
+				INFOPLIST_FILE = "ReversePolishNotationCalculatorTests/ReversePolishNotationCalculatorTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -280,6 +433,14 @@
 			buildConfigurations = (
 				928F57A8174BB2EF0019382B /* Debug */,
 				928F57A9174BB2EF0019382B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		928F57C4174BB3130019382B /* Build configuration list for PBXNativeTarget "ReversePolishNotationCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928F57C5174BB3130019382B /* Debug */,
+				928F57C6174BB3130019382B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
